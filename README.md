@@ -1,1 +1,3 @@
 # Inverse-Fraunhofer
+In optics, the Fraunhofer diffraction equation is used to model the diffraction of waves when the diffraction pattern is viewed at a long distance from the diffracting object and also when it is viewed at the focal plane of an imaging lens.
+If the aperture is in the x'y' plane, with the origin aperture and is illuminated by a monochromatic wave of wavelength lamda, wavenumber k with complex amplitude A(x', y')
