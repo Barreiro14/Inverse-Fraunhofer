@@ -7,7 +7,7 @@ def plotter(arr):
     while i < len(arr):
         while j < len(arr[0]):
             if arr[i][j] != 0:
-                plt.plot(i, j, 'bo')
+                plt.plot(i, j, 'ko')
             j = j +1
         i = i + 1
     plt.show()
