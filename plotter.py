@@ -10,10 +10,17 @@ def plotter(arr):
                 plt.plot(i, j, 'ko')
             j = j +1
         i = i + 1
+    plt.plot(0,0, 'bo')
     plt.show()
 
-arr = np.array([[0,1,1], [1, 0, 0], [1, 0, 1]])
+arr = np.array([[1,1,1], [1, 1, 1], [1, 1, 1]])
 print(len(arr[0]))
 plotter(arr)
-#plt.plot(1, 2, 'bo')
-#plt.show()
+'''
+plt.plot(1, 2, 'bo')
+plt.plot(1, 1, 'bo')
+plt.plot(2, 2, 'bo')
+plt.plot(2, 1, 'bo')
+
+plt.show()
+'''
